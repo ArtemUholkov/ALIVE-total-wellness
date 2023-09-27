@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'GeneralSans';
-  src: url('/assets/GeneralSans-Variable.eot'); /* IE9 Compat Modes */
-  src: url('/assets/GeneralSans-Variable.eot') format('embedded-opentype'),
-    url('/assets/GeneralSans-Variable.woff2') format('woff2'),
-    url('/assets/GeneralSans-Variable.woff') format('woff'),
-    url('/assets/GeneralSans-Variable.ttf') format('truetype');
+  src: url('../assets/GeneralSans-Variable.eot'); /* IE9 Compat Modes */
+  src: url('../assets/GeneralSans-Variable.eot') format('embedded-opentype'),
+    url('../assets/GeneralSans-Variable.woff2') format('woff2'),
+    url('../assets/GeneralSans-Variable.woff') format('woff'),
+    url('../assets/GeneralSans-Variable.ttf') format('truetype');
 }
 
 * {
