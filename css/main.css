@@ -1,7 +1,7 @@
 .main_picture {
   height: 100svh;
   width: 100svw;
-  background: url('/img/main/main_img.webp');
+  background: url('../img/main/main_img.webp');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
