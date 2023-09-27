@@ -1,0 +1,54 @@
+.intro {
+  background-color: var(--main-bg-color);
+  position: relative;
+  top: -70px;
+  border-radius: 50% 50% 0px 0px / 50px 50px 0px 0px;
+  height: 700px;
+  width: 100%;
+}
+.intro_content_wrapper {
+  padding: 0px 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.intro_content_item_logos {
+  max-width: 40%;
+  width: 100%;
+}
+.intro_content_item_text {
+}
+.intro_content_item_logos_wrapper {
+}
+.intro_logo {
+}
+.intro_content_item_image {
+}
+.intro_content_item_price {
+  max-width: 40%;
+  width: 100%;
+}
+.intro_content_item_price_title {
+}
+.intro_content_item_price_text {
+}
+.intro_content_item_price_starting {
+}
+.intro_content_item_price_price {
+}
+.exact_price {
+}
+.main_button {
+}
+.mob_button {
+}
+@media (max-width: 1000px) {
+  .intro {
+    position: relative;
+    top: -50px;
+    border-radius: 50% 50% 0px 0px / 20px 20px 0px 0px;
+    height: 700px;
+    width: 100%;
+  }
+}
