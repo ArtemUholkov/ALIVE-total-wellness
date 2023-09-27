@@ -127,6 +127,9 @@ header {
   height: 10px;
   border-color: #fff;
 }
+.mob_menu_buttons {
+  width: 100%;
+}
 
 @media (max-width: 1620px) {
   .header_wrapper {
@@ -220,6 +223,7 @@ header {
     align-items: flex-start;
     justify-content: space-around;
     padding-left: 20px;
+    padding-right: 20px;
   }
 
   .navbar_menu_mobile {
@@ -228,7 +232,7 @@ header {
     align-items: flex-start;
 
     width: 100%;
-    padding-top: 136px;
+    padding-top: 74px;
   }
 
   .nav_elem_mobile {
@@ -321,9 +325,7 @@ header {
   .header_wrapper {
     padding: 12px 20px 12px 20px;
   }
-  .main_button {
-    display: none;
-  }
+
   .main-logo {
     height: 40px;
     width: 41px;
@@ -343,5 +345,29 @@ header {
   .fly_space {
     top: 64px;
     height: calc(100svh - 124px);
+  }
+}
+@media (max-height: 380px) {
+  .header_wrapper {
+    padding: 12px 20px 12px 20px;
+  }
+
+  .main-logo {
+    height: 40px;
+    width: 41px;
+    transition: all 2s;
+  }
+  .logo-color {
+    width: 41px;
+    height: 40px;
+    transition: all 2s;
+  }
+  header {
+    height: 64px;
+  }
+  .nav_elem_mobile {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
   }
 }
