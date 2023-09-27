@@ -80,7 +80,60 @@
         </div>
       </div>
     </header>
-    <section class="main_picture"></section>
+    <section class="main_picture">
+      <div class="main_picture_content_wrapper">
+        <div class="main_text_wrapper">
+          <h1>Unlock the Best Version of You!</h1>
+          <p class="main_text_subtext">
+            A holistic approach to weight loss that not just changes your body, but your life.
+          </p>
+          <div class="header_button_pair mob_menu_buttons mainsect_button">
+            <a href="#contacts" class="main_button mob_button" onclick="scrollToSub()"
+              >Begin Your Journey Now</a
+            >
+          </div>
+        </div>
+        <div class="main_form_wrapper">
+          <div class="sub_form">
+            <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+              <div class="input-container">
+                <input required type="text" name="Subject" />
+                <label>NAME</label>
+              </div>
+              <div class="input-container">
+                <input required type="tel" name="extra_phone_number" />
+                <label>Phone number</label>
+              </div>
+              <div class="input-container">
+                <input required type="email" name="text" />
+                <label>Email</label>
+              </div>
+
+              <div class="input-container">
+                <input
+                  id="submit_form"
+                  type="submit"
+                  value="Get started"
+                  class="main_button form_button"
+                />
+              </div>
+              <input type="hidden" name="access_token" value="" />
+
+              <input
+                type="hidden"
+                name="success_url"
+                value=".?message=Email+Successfully+Sent%21&isError=0"
+              />
+              <input
+                type="hidden"
+                name="error_url"
+                value=".?message=Email+could+not+be+sent.&isError=1"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="intro"></section>
     <section class="transform"></section>
     <section class="benefits"></section>
@@ -162,7 +215,7 @@
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
-    <script>
+    <!-- <script>
       var submitButton = document.getElementById('submit_form');
       var form = document.getElementById('email_form');
       form.addEventListener('submit', function (e) {
@@ -174,6 +227,6 @@
           window.location.href = 'thankyou.html';
         }, 1000);
       });
-    </script>
+    </script> -->
   </body>
 </html>

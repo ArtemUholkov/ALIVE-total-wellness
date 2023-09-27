@@ -151,9 +151,10 @@ html {
   font-weight: 600;
   text-decoration: none;
   color: var(--main-text-color);
-  transition: all 0.5s;
+
   text-decoration: none;
   width: 100%;
+  transition: all 0.5s;
 }
 .main_button:hover {
   background-color: #02504c;
@@ -168,16 +169,7 @@ body {
   z-index: 2;
   background: var(--main-bg-color);
 }
-h1 {
-  position: relative;
-  text-align: center;
-  color: var(--main-text-color);
-  font-family: Newsreader;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%;
-}
+
 .container {
   margin: 0 auto;
   padding-left: 150px;
