@@ -342,7 +342,7 @@ input[type='email']:valid ~ label {
     display: none;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 550px) {
   .main_text_wrapper {
     margin-top: auto;
     justify-content: flex-end;
@@ -350,7 +350,7 @@ input[type='email']:valid ~ label {
   .mainsect_button {
     display: flex;
     margin-top: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   .main_text_subtext {
     margin-top: 16px;
