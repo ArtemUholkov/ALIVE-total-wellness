@@ -57,6 +57,7 @@
 .intro_content_item_price {
   max-width: 519px;
   width: 100%;
+  z-index: 10;
 }
 .intro_content_item_price_title {
   font-size: 32px;
@@ -97,6 +98,7 @@
 }
 .intro_button {
   max-width: 382px;
+  z-index: 10;
 }
 .mob_logos {
   display: none;
