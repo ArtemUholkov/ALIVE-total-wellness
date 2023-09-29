@@ -121,9 +121,6 @@
   }
 }
 @media (max-width: 1550px) {
-  .transform_content_text_wrapper {
-    /* max-width: 450px; */
-  }
   .transform_content_text {
     width: 40%;
   }
