@@ -118,6 +118,22 @@
   }
 }
 @media (max-width: 800px) {
+  .accordion-button {
+    font-size: 18px;
+  }
+  .questions_title {
+    font-size: 48px;
+  }
+  .questions_link {
+    margin-bottom: 32px;
+  }
+  .questions_info_subtitle {
+    font-size: 14px;
+  }
+  .accordion-body {
+    font-size: 14px;
+    padding-right: 0px;
+  }
   .questions_wrapper {
     flex-direction: column;
     justify-content: center;

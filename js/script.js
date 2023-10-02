@@ -80,13 +80,12 @@ function thankyou() {
     window.location.href = 'thankyou.html';
   }, 2000);
 }
-$(window).scroll(function () {
-  var scroll = $(window).scrollTop();
-  if (scroll >= 60) {
-    $('header').addClass('active');
+$(window).on('scroll', function () {
+  if ($(window).scrollTop() > 50) {
+    $('.header').addClass('good');
   } else {
-    $('header').removeClass('active');
+    //remove the background property so it comes transparent again (defined in your css)
+    $('.header').removeClass('good');
   }
-  console.log('111');
 });
 //
