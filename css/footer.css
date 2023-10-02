@@ -24,6 +24,7 @@
   line-height: 120%;
   color: var(--usual-decorations);
   margin-bottom: 24px;
+  text-decoration: none;
 }
 .logos_wrapper {
   display: flex;

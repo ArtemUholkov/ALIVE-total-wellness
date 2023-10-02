@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <!--FONTS-->
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- Boostrap  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -339,7 +339,58 @@
         </div>
       </div>
     </section>
-    <section class="stories"></section>
+
+    <section class="stories">
+      <div class="stories_srapper">
+        <h2 class="stories_title">Success Stories</h2>
+        <div class="swiper mySwiper3" data-aos="fade-up" data-aos-duration="1000">
+          <div class="swiper-wrapper team_swiper_wrapper">
+            <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+              <div class="comp_wrapper">
+                <div id="one" class="bal-container">
+                  <div class="bal-after">
+                    <img src="img/stories/2.webp" />
+                    <div class="bal-afterPosition afterLabel">After</div>
+                  </div>
+
+                  <div class="bal-before">
+                    <div class="bal-before-inset">
+                      <img src="img/stories/1.webp" />
+                      <div class="bal-beforePosition beforeLabel">Before</div>
+                    </div>
+                  </div>
+
+                  <div class="bal-handle">
+                    <span class="handle-left-arrow"></span>
+                    <span class="handle-right-arrow"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="comment_wrapper">
+                <div class="comment_text_wrapper">
+                  <p class="comment_text">
+                    The whole experience was just shockingly good. I was shocked to see how low my
+                    testosterone levels were and then shocked again how much better I felt after
+                    taking my personalized recommendation.
+                  </p>
+                  <p class="comment_author">Meagan R.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide"></div>
+            <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide"></div>
+          </div>
+          <div class="buttons_wrapper">
+            <div class="swiper-button-prev team_button-prev">
+              <img src="img/sliders_buttons/right_white.png" alt="arrow" />
+            </div>
+            <div class="swiper-button-next team_button-next">
+              <img src="img/sliders_buttons/right_white.png" alt="arrow" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="questions">
       <div class="questions_wrapper">
         <div class="questions_info_wrapper">
@@ -680,7 +731,69 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/before-after.js"></script>
+
+    <script>
+      var swiper = new Swiper('.mySwiper3', {
+        slidesOffsetAfter: 150,
+        slidesOffsetBefore: 150,
+        slidesPerView: 1,
+        spaceBetween: 300,
+        slidesPerView: 'auto',
+        allowTouchMove: false,
+        navigation: {
+          nextEl: '.team_button-next',
+          prevEl: '.team_button-prev',
+          disabledClass: 'disabled_swiper_button',
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesOffsetAfter: 20,
+            slidesOffsetBefore: 20,
+            slidesPerView: 1,
+            spaceBetween: 40,
+            slidesPerView: 'auto',
+          },
+          755: {
+            slidesOffsetAfter: 50,
+            slidesOffsetBefore: 50,
+            slidesPerView: 1,
+            spaceBetween: 100,
+            slidesPerView: 'auto',
+          },
+          // when window width is >= 480px
+          1100: {
+            slidesOffsetAfter: 100,
+            slidesOffsetBefore: 100,
+            slidesPerView: 1,
+            spaceBetween: 200,
+            slidesPerView: 'auto',
+          },
+          // when window width is >= 640px
+          1510: {
+            slidesOffsetAfter: 150,
+            slidesOffsetBefore: 150,
+            slidesPerView: 1,
+            spaceBetween: 300,
+            slidesPerView: 'auto',
+          },
+        },
+      });
+    </script>
     <script src="js/script.js"></script>
+    <script>
+      new BeforeAfter({
+        id: '#one',
+      });
+      new BeforeAfter({
+        id: '#two',
+      });
+      new BeforeAfter({
+        id: '#three',
+      });
+    </script>
     <!-- <script>
       var submitButton = document.getElementById('submit_form');
       var form = document.getElementById('email_form');
