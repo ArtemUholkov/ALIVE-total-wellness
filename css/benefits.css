@@ -110,14 +110,15 @@ h2 {
     position: absolute;
     left: 0;
     right: 0;
-    top: 250px;
+    top: 300px;
     text-align: center;
   }
   .benefits_content_item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
+
   /* .benefits_content_wrapper {
     padding-top: 60px;
   } */

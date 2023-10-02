@@ -67,6 +67,10 @@
   text-decoration: none;
   transition: all 0.3s;
   border-bottom: 1px solid var(--usual-decorations);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .how_content_item_link:hover {
   color: var(--usual-decorations);
@@ -172,12 +176,13 @@
     font-size: 14px;
   }
   .how_content_item_link-number_wrapper {
-    align-items: flex-end;
-
     margin-top: 24px;
   }
   .how_title {
     font-size: 48px;
     margin-bottom: 24px;
+  }
+  .first_number {
+    margin-top: 55px;
   }
 }
