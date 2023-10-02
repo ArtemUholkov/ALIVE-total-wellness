@@ -41,11 +41,11 @@
           </a>
 
           <ul class="navbar_menu">
-            <li><p class="nav_elem" href="" onclick="scrollToNumbers()">Price</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToSolutions()">About</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToProcess()">Benefits</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToReviews()">How it works</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToTeam()">Before & After</p></li>
+            <li><p class="nav_elem" href="" onclick="scrollToPrice()">Price</p></li>
+            <li><p class="nav_elem" href="#" onclick="scrollToAbout()">About</p></li>
+            <li><p class="nav_elem" href="#" onclick="scrollToBenefits()">Benefits</p></li>
+            <li><p class="nav_elem" href="#" onclick="scrollToHow()">How it works</p></li>
+            <li><p class="nav_elem" href="#" onclick="scrollToBefore()">Before & After</p></li>
           </ul>
           <div class="burger">
             <div class="burger_space" id="burger">
@@ -58,18 +58,18 @@
         <div class="popup" id="popup">
           <div class="popup_textblock" id="popupSlide">
             <ul class="navbar_menu_mobile">
-              <li><p class="nav_elem_mobile" href="" onclick="scrollToNumbers()">Price</p></li>
+              <li><p class="nav_elem_mobile" href="" onclick="scrollToPrice()">Price</p></li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToSolutions()">About</p>
+                <p class="nav_elem_mobile" href="" onclick="scrollToAbout()">About</p>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToProcess()">Benefits</p>
+                <p class="nav_elem_mobile" href="" onclick="scrollToBenefits()">Benefits</p>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToReviews()">How it works</p>
+                <p class="nav_elem_mobile" href="" onclick="scrollToHow()">How it works</p>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToTeam()">Before & After</p>
+                <p class="nav_elem_mobile" href="" onclick="scrollToBefore()">Before & After</p>
               </li>
             </ul>
             <div class="header_button_pair mob_menu_buttons">
@@ -135,9 +135,9 @@
         </div>
       </div>
     </section>
-    <section class="intro">
+    <section class="intro" id="price">
       <div class="intro_content_wrapper">
-        <div class="intro_content_item_logos">
+        <div class="intro_content_item_logos" data-aos="fade-up">
           <p class="intro_content_item_text">
             We believe the science of probiotics demands a new standart
           </p>
@@ -148,10 +148,10 @@
             <img src="img/intro/logos-prestige.svg" alt="logo" class="intro_logo4" />
           </div>
         </div>
-        <div class="intro_content_item_image">
+        <div class="intro_content_item_image" data-aos="fade-up">
           <img src="img/intro/bootle.png" alt="bottle" class="intro_content_item_image_image" />
         </div>
-        <div class="intro_content_item_price">
+        <div class="intro_content_item_price" data-aos="fade-up">
           <p class="intro_content_item_price_title">GLP-1 Inhibitors</p>
           <p class="intro_content_item_price_text">
             A significant number of folks see a noticeable enhancement in their body weight over 12
@@ -174,12 +174,12 @@
         </div>
       </div>
     </section>
-    <section class="transform">
+    <section class="transform" id="about">
       <div class="transform_content_wrapper">
         <div class="transform_content_text">
           <div class="transform_content_text_wrapper">
-            <p class="transform_content_text_title">Transform Your Life today</p>
-            <p class="transform_content_text_subtext">
+            <p class="transform_content_text_title" data-aos="fade-up">Transform Your Life today</p>
+            <p class="transform_content_text_subtext" data-aos="fade-up">
               Introducing Semaglutide: A revolutionary weight loss solution. Dive into a
               science-backed approach where users have reported shedding an impressive 16.9% body
               weight in 68 weeks. Not just a simple formula, but a leap towards a healthier you.
@@ -188,7 +188,7 @@
           </div>
         </div>
         <div class="transform_content_boxes_wrapper">
-          <div class="transform_content_boxes_1_wrapper">
+          <div class="transform_content_boxes_1_wrapper" data-aos="fade-up">
             <div class="transform_content_boxes_1">
               <p class="transofrm_content_boxes_1_title">
                 92<span class="transofrm_content_boxes_1_percentage">%</span>
@@ -196,7 +196,7 @@
               <p class="transofrm_content_boxes_1_text">Patients see results in the first month</p>
             </div>
           </div>
-          <div class="transform_content_boxes_2_wrapper">
+          <div class="transform_content_boxes_2_wrapper" data-aos="fade-up">
             <div class="transform_content_boxes_2">
               <p class="transofrm_content_boxes_2_title">
                 10-15<span class="transofrm_content_boxes_2_percentage">%</span>
@@ -207,7 +207,7 @@
         </div>
       </div>
     </section>
-    <section class="benefits">
+    <section class="benefits" id="benefits">
       <div class="benefits_wrapper">
         <h2 class="h2_regular">Check the benefits</h2>
         <div class="intro_content_wrapper benefits_content_wrapper">
@@ -221,7 +221,7 @@
           <h2 class="h2_mobile">Check the benefits</h2>
           <div class="intro_content_item_price">
             <div class="benefits_content_items_wrapper">
-              <div class="benefits_content_item">
+              <div class="benefits_content_item" data-aos="fade-right">
                 <img src="img/benefits/bodysvg.svg" alt="" class="benefits_icon" />
                 <div class="benefits_text_wrapper">
                   <p class="benefits_content_item_title">Tangible Weight Reduction</p>
@@ -232,7 +232,7 @@
                   </p>
                 </div>
               </div>
-              <div class="benefits_content_item">
+              <div class="benefits_content_item" data-aos="fade-right">
                 <img src="img/benefits/bottle.svg" alt="" class="benefits_icon" />
                 <div class="benefits_text_wrapper">
                   <p class="benefits_content_item_title">Personalized prescription</p>
@@ -246,7 +246,7 @@
               </div>
             </div>
           </div>
-          <div class="intro_content_item_image benefits_image">
+          <div class="intro_content_item_image benefits_image" data-aos="fade-up">
             <img
               src="img/benefits/bottle.png"
               alt="bottle"
@@ -255,7 +255,7 @@
           </div>
           <div class="intro_content_item_price">
             <div class="benefits_content_items_wrapper">
-              <div class="benefits_content_item">
+              <div class="benefits_content_item" data-aos="fade-left">
                 <img src="img/benefits/burgersvg.svg" alt="" class="benefits_icon" />
                 <div class="benefits_text_wrapper">
                   <p class="benefits_content_item_title">Appetite Regulation</p>
@@ -266,7 +266,7 @@
                   </p>
                 </div>
               </div>
-              <div class="benefits_content_item">
+              <div class="benefits_content_item" data-aos="fade-left">
                 <img src="img/benefits/schemasvg.svg" alt="" class="benefits_icon" />
                 <div class="benefits_text_wrapper">
                   <p class="benefits_content_item_title">Minimized Side Effects</p>
@@ -285,11 +285,11 @@
         >
       </div>
     </section>
-    <section class="howitworks">
+    <section class="howitworks" id="how">
       <div class="how_wrapper">
         <h2 class="how_title">How it works</h2>
         <div class="how_content_wrapper">
-          <div class="how_content_item how_item1">
+          <div class="how_content_item how_item1" data-aos="fade-right" data-aos-delay="300">
             <div class="how_content_text_item">
               <img src="img/howitworks/schema.svg" alt="" class="how_content_item_icon" />
               <p class="how_content_item_title">Book Provider Consultation</p>
@@ -300,13 +300,13 @@
               </p>
             </div>
             <div class="how_content_item_link-number_wrapper">
-              <a href="" class="how_content_item_link"
+              <a class="how_content_item_link" onclick="scrollToSub()"
                 >Book <img src="img/howitworks/arrow-left.svg" class="how_deco_arrow" alt=""
               /></a>
               <p class="how_content_items_number">01</p>
             </div>
           </div>
-          <div class="how_content_item how_item2">
+          <div class="how_content_item how_item2" data-aos="fade-right" data-aos-delay="500">
             <div class="how_content_text_item">
               <img src="img/howitworks/medic.svg" alt="" class="how_content_item_icon" />
               <p class="how_content_item_title">Meet Alive Total Wellness Provider</p>
@@ -321,7 +321,7 @@
               <p class="how_content_items_number">02</p>
             </div>
           </div>
-          <div class="how_content_item how_item3">
+          <div class="how_content_item how_item3" data-aos="fade-right" data-aos-delay="700">
             <div class="how_content_text_item">
               <img src="img/howitworks/pill.svg" alt="" class="how_content_item_icon" />
               <p class="how_content_item_title">Collect Your Medications from the Pharmacy</p>
@@ -339,8 +339,7 @@
         </div>
       </div>
     </section>
-
-    <section class="stories">
+    <section class="stories" id="before">
       <div class="stories_srapper">
         <h2 class="stories_title">Success Stories</h2>
         <div class="swiper mySwiper3" data-aos="fade-up" data-aos-duration="1000">
@@ -348,6 +347,39 @@
             <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
               <div class="comp_wrapper">
                 <div id="one" class="bal-container">
+                  <div class="bal-after">
+                    <img src="img/stories/after.png" />
+                    <div class="bal-afterPosition afterLabel">After</div>
+                  </div>
+
+                  <div class="bal-before">
+                    <div class="bal-before-inset">
+                      <img src="img/stories/before.png" />
+                      <div class="bal-beforePosition beforeLabel">Before</div>
+                    </div>
+                  </div>
+
+                  <div class="bal-handle">
+                    <span class="handle-left-arrow"></span>
+                    <span class="handle-right-arrow"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="test_wrap">
+                <div class="comment_wrapper">
+                  <div class="comment_text_wrapper">
+                    <p class="comment_text">
+                      "Initially doubtful, GLP-1 changed my life. Stable blood sugar, reduced
+                      cravings, and newfound energy. A true game-changer for my health journey."
+                    </p>
+                    <p class="comment_author">Meagan R.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+              <div class="comp_wrapper">
+                <div id="two" class="bal-container">
                   <div class="bal-after">
                     <img src="img/stories/2.webp" />
                     <div class="bal-afterPosition afterLabel">After</div>
@@ -366,19 +398,51 @@
                   </div>
                 </div>
               </div>
-              <div class="comment_wrapper">
-                <div class="comment_text_wrapper">
-                  <p class="comment_text">
-                    The whole experience was just shockingly good. I was shocked to see how low my
-                    testosterone levels were and then shocked again how much better I felt after
-                    taking my personalized recommendation.
-                  </p>
-                  <p class="comment_author">Meagan R.</p>
+              <div class="test_wrap">
+                <div class="comment_wrapper">
+                  <div class="comment_text_wrapper">
+                    <p class="comment_text">
+                      "Embracing GLP-1 was my best decision. It stabilized my sugar levels, curbed
+                      my cravings, and boosted my daily vitality. Healthier living feels real now!"
+                    </p>
+                    <p class="comment_author">Emily N.</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide"></div>
-            <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide"></div>
+            <div class="swiper-slide reviews_swiper_slide team_swiper_slide first_slide">
+              <div class="comp_wrapper">
+                <div id="three" class="bal-container">
+                  <div class="bal-after">
+                    <img src="img/stories/4.webp" />
+                    <div class="bal-afterPosition afterLabel">After</div>
+                  </div>
+
+                  <div class="bal-before">
+                    <div class="bal-before-inset">
+                      <img src="img/stories/3.webp" />
+                      <div class="bal-beforePosition beforeLabel">Before</div>
+                    </div>
+                  </div>
+
+                  <div class="bal-handle">
+                    <span class="handle-left-arrow"></span>
+                    <span class="handle-right-arrow"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="test_wrap">
+                <div class="comment_wrapper">
+                  <div class="comment_text_wrapper">
+                    <p class="comment_text">
+                      "Thanks to GLP-1, my days are balanced and vibrant. Sugar spikes are history,
+                      and I've embraced better eating habits. It's been revolutionary!"
+                    </p>
+                    <p class="comment_author">Aisha M.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="buttons_wrapper">
             <div class="swiper-button-prev team_button-prev">
@@ -394,19 +458,19 @@
     <section class="questions">
       <div class="questions_wrapper">
         <div class="questions_info_wrapper">
-          <h2 class="questions_title">Any questions?</h2>
-          <p class="questions_info_subtitle">
+          <h2 class="questions_title" data-aos="fade-up">Any questions?</h2>
+          <p class="questions_info_subtitle" data-aos="fade-up">
             You can contact our support for additional information
           </p>
           <div>
-            <a href="" class="how_content_item_link questions_link"
+            <a class="how_content_item_link questions_link" onclick="scrollToSub()"
               >Contact support
               <img src="img/howitworks/arrow-left.svg" class="how_deco_arrow" alt=""
             /></a>
           </div>
         </div>
         <div class="questions_questions_wrapper">
-          <div class="accordion" id="accordionExample">
+          <div class="accordion" id="accordionExample" data-aos="fade-up">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
@@ -630,10 +694,10 @@
         </div>
       </div>
     </section>
-    <section class="subscribe">
+    <section class="subscribe" id="sub">
       <div class="sub_wrapper">
         <div class="sub_capture"><img src="img/subscribe/mobimg.png" alt="" class="mobimg" /></div>
-        <div class="sub_form_wrapper">
+        <div class="sub_form_wrapper" data-aos="fade-up">
           <div class="sub_form sub_subform">
             <form
               class="sub_form_form"
@@ -680,7 +744,6 @@
         </div>
       </div>
     </section>
-
     <footer data-aos="fade-up">
       <div class="footer_wrapper">
         <div class="footer_texts_wrapper">
@@ -730,6 +793,11 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="js/before-after.js"></script>
@@ -737,11 +805,11 @@
     <script>
       var swiper = new Swiper('.mySwiper3', {
         slidesOffsetAfter: 150,
-        slidesOffsetBefore: 150,
+        slidesOffsetBefore: 0,
         slidesPerView: 1,
-        spaceBetween: 300,
+        // spaceBetween: 150,
         slidesPerView: 'auto',
-        allowTouchMove: false,
+        allowTouchMove: true,
         navigation: {
           nextEl: '.team_button-next',
           prevEl: '.team_button-prev',
@@ -751,32 +819,34 @@
           // when window width is >= 320px
           320: {
             slidesOffsetAfter: 20,
-            slidesOffsetBefore: 20,
+            slidesOffsetBefore: 0,
             slidesPerView: 1,
             spaceBetween: 40,
             slidesPerView: 'auto',
+            allowTouchMove: false,
           },
           755: {
             slidesOffsetAfter: 50,
-            slidesOffsetBefore: 50,
+            slidesOffsetBefore: 0,
             slidesPerView: 1,
-            spaceBetween: 100,
+            // spaceBetween: 100,
             slidesPerView: 'auto',
+            allowTouchMove: false,
           },
           // when window width is >= 480px
           1100: {
             slidesOffsetAfter: 100,
-            slidesOffsetBefore: 100,
+            slidesOffsetBefore: 0,
             slidesPerView: 1,
-            spaceBetween: 200,
+            // spaceBetween: 200,
             slidesPerView: 'auto',
           },
           // when window width is >= 640px
           1510: {
             slidesOffsetAfter: 150,
-            slidesOffsetBefore: 150,
+            slidesOffsetBefore: 0,
             slidesPerView: 1,
-            spaceBetween: 300,
+            // spaceBetween: 150,
             slidesPerView: 'auto',
           },
         },

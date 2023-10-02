@@ -257,6 +257,7 @@
     gap: 58px;
   }
   .transform {
+    margin-top: -20px;
     background-image: url('../img/transform/bgmobtest.png');
     background-position: top;
     background-repeat: no-repeat;

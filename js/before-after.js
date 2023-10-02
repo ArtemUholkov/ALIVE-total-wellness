@@ -6,7 +6,7 @@ class BeforeAfter {
     const afterText = beforeAfterContainer.querySelector('.bal-afterPosition');
     const handle = beforeAfterContainer.querySelector('.bal-handle');
     var widthChange = 0;
-
+    console.log(beforeAfterContainer.offsetWidth);
     beforeAfterContainer
       .querySelector('.bal-before-inset')
       .setAttribute('style', 'width: ' + beforeAfterContainer.offsetWidth + 'px;');

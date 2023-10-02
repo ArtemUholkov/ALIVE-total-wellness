@@ -125,10 +125,14 @@
     gap: 32px;
   }
   .questions_info_wrapper {
+    gap: 8px;
     width: 100%;
   }
 
   .questions_questions_wrapper {
     width: 100%;
+  }
+  .questions_title {
+    margin-bottom: 8px;
   }
 }

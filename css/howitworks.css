@@ -73,6 +73,7 @@
   text-decoration: none;
   opacity: 0.6;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .how_content_items_number {
   font-size: 18px;

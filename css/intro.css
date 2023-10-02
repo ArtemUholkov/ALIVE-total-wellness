@@ -261,3 +261,8 @@
     text-align: left;
   }
 }
+@media (max-height: 900px) {
+  .main_form_wrapper {
+    margin-top: 30svh;
+  }
+}
