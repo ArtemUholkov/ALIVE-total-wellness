@@ -98,8 +98,7 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.accordion-button::after {
-}
+
 @media (max-width: 1600px) {
   .questions_wrapper {
     padding: 100px;
