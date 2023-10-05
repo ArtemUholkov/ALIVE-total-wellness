@@ -58,7 +58,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  width: 186px;
+  width: 140px;
 }
 .accordion-body {
   color: var(--usual-decorations);
@@ -130,7 +130,7 @@
   }
   .questions_link {
     margin-bottom: 32px;
-    width: 145px;
+    width: 105px;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;

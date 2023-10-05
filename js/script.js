@@ -75,11 +75,6 @@ let copiedText = document.querySelectorAll('#trythis');
 copiedText.forEach((elem) => elem.addEventListener('click', () => copyText(elem)));
 console.log(colorLogo);
 
-function thankyou() {
-  setTimeout(() => {
-    window.location.href = 'thankyou.html';
-  }, 2000);
-}
 $(window).on('scroll', function () {
   if ($(window).scrollTop() > 50) {
     $('.header').addClass('good');

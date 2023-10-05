@@ -99,7 +99,7 @@
             <form action="https://postmail.invotes.com/send" method="post" id="email_form">
               <div class="input-container">
                 <input required type="text" name="Subject" />
-                <label>NAME</label>
+                <label>Name</label>
               </div>
               <div class="input-container">
                 <input required type="tel" name="extra_phone_number" />
@@ -118,7 +118,7 @@
                   class="main_button form_button"
                 />
               </div>
-              <input type="hidden" name="access_token" value="" />
+              <input type="hidden" name="access_token" value="1jo5gridkd64bh3ryfwht219" />
 
               <input
                 type="hidden"
@@ -142,10 +142,7 @@
             We believe the science of probiotics demands a new standart
           </p>
           <div class="intro_content_item_logos_wrapper">
-            <img src="img/intro/logos-ultraclear.svg" alt="logo" class="intro_logo1" />
-            <img src="img/intro/logos-hyper-best.svg" alt="logo" class="intro_logo2" />
-            <img src="img/intro/logo-winner.svg" alt="logo" class="intro_logo3" />
-            <img src="img/intro/logos-prestige.svg" alt="logo" class="intro_logo4" />
+            <img src="img/intro/logos.png" alt="" class="intro_logo" />
           </div>
         </div>
         <div class="intro_content_item_image" data-aos="fade-up">
@@ -159,10 +156,7 @@
             the dosage and duration of treatment.
           </p>
           <div class="intro_content_item_logos_wrapper mob_logos">
-            <img src="img/intro/logos-ultraclear.svg" alt="logo" class="intro_logo1" />
-            <img src="img/intro/logos-hyper-best.svg" alt="logo" class="intro_logo2" />
-            <img src="img/intro/logo-winner.svg" alt="logo" class="intro_logo3" />
-            <img src="img/intro/logos-prestige.svg" alt="logo" class="intro_logo4" />
+            <img src="img/intro/logos.png" alt="" class="intro_logo" />
           </div>
           <p class="intro_content_item_price_starting">Starting at</p>
           <p class="intro_content_item_price_price">
@@ -464,7 +458,7 @@
           </p>
           <div>
             <a class="how_content_item_link questions_link" onclick="scrollToSub()"
-              >Contact support
+              >Contact us
               <img src="img/howitworks/arrow-left.svg" class="how_deco_arrow" alt="arrow"
             /></a>
           </div>
@@ -705,12 +699,12 @@
               class="sub_form_form"
               action="https://postmail.invotes.com/send"
               method="post"
-              id="email_form"
+              id="email_form2"
             >
               <p class="sub_form_title">Unlock the Best Version of You!</p>
               <div class="input-container">
                 <input required type="text" name="Subject" />
-                <label>NAME</label>
+                <label>Name</label>
               </div>
               <div class="input-container">
                 <input required type="tel" name="extra_phone_number" />
@@ -723,13 +717,13 @@
 
               <div class="input-container">
                 <input
-                  id="submit_form"
+                  id="submit_form2"
                   type="submit"
                   value="Get started"
                   class="main_button form_button"
                 />
               </div>
-              <input type="hidden" name="access_token" value="" />
+              <input type="hidden" name="access_token" value="1jo5gridkd64bh3ryfwht219" />
 
               <input
                 type="hidden"
@@ -746,6 +740,34 @@
         </div>
       </div>
     </section>
+    <script>
+      var submitButton = document.getElementById('submit_form');
+      var form = document.getElementById('email_form');
+      submitButton.form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        setTimeout(function () {
+          submitButton.value = 'Sending...';
+          submitButton.disabled = true;
+        }, 1);
+        setTimeout(() => {
+          window.location.href = 'thankyou.html';
+        }, 1000);
+      });
+    </script>
+    <script>
+      var submitButton2 = document.getElementById('submit_form2');
+      var form2 = document.getElementById('email_form2');
+      submitButton2.form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        setTimeout(function () {
+          submitButton2.value = 'Sending...';
+          submitButton2.disabled = true;
+        }, 1);
+        setTimeout(() => {
+          window.location.href = 'thankyou.html';
+        }, 1000);
+      });
+    </script>
     <footer data-aos="fade-up">
       <div class="footer_wrapper">
         <div class="footer_texts_wrapper">
@@ -756,23 +778,21 @@
           </div>
 
           <div class="phone_mail_wrapper">
-            <a href="mailto:contact@webugol.com" class="footer_text footer_phone"
-              >contact@webugol.com</a
+            <a href="mailto:contact@alivetotalwellness.com" class="footer_text footer_phone"
+              >contact@alivetotalwellness.com</a
             >
           </div>
         </div>
         <div class="logos_wrapper">
           <p class="footer_adress">100 7th Street, Suite 104 Portsmouth, Virginia 23704</p>
           <div class="footer_logos_wrapper">
-            <a href="https://www.facebook.com/webugol/" target="_blank"
+            <a href="https://www.facebook.com/757TRT/" target="_blank"
               ><img src="img/footer/Facebook.svg" alt="fb" class="footer_logo_links"
             /></a>
-            <a href="https://www.instagram.com/webugol/" target="_blank"
+            <a href="https://www.instagram.com/alivetotalwellness" target="_blank"
               ><img src="img/footer/instagram.svg" alt="inst" class="footer_logo_links"
             /></a>
-            <a
-              target="_blank"
-              href="https://www.google.com/maps/place/Webugol+-+%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2%D0%B0+%D0%B0%D0%B3%D0%B5%D0%BD%D1%86%D1%96%D1%8F/@49.8523671,24.0207104,17z/data=!3m1!4b1!4m5!3m4!1s0x473add9a181694ad:0x36b4b7078b0aac35!8m2!3d49.8523671!4d24.0228991"
+            <a target="_blank" href="https://g.co/kgs/tf2UVv"
               ><img src="img/footer/google.svg" alt="google" class="footer_logo_links"
             /></a>
           </div>
@@ -866,18 +886,5 @@
         id: '#three',
       });
     </script>
-    <!-- <script>
-      var submitButton = document.getElementById('submit_form');
-      var form = document.getElementById('email_form');
-      form.addEventListener('submit', function (e) {
-        setTimeout(function () {
-          submitButton.value = 'Sending...';
-          submitButton.disabled = true;
-        }, 1);
-        setTimeout(() => {
-          window.location.href = 'thankyou.html';
-        }, 1000);
-      });
-    </script> -->
   </body>
 </html>
