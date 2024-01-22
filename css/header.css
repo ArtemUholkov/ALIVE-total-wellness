@@ -7,7 +7,19 @@ header {
   z-index: 100;
   transition: all 0.5s;
 }
-
+.desk_mob_number {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.desk_mob_number:hover {
+  opacity: 0.6;
+  transition: all 0.5s;
+}
 .good {
   background: rgba(34, 34, 34, 0.5);
 
@@ -140,17 +152,19 @@ header {
     padding: 16px 100px 16px 100px;
   }
 }
+@media (max-width: 1390px) {
+  .navbar_menu {
+    gap: 25px;
+  }
+}
 @media (max-width: 1200px) {
   .header_wrapper {
     padding: 16px 50px 16px 50px;
   }
 }
 @media (max-width: 1050px) {
-  .navbar_menu {
-    gap: 38px;
-  }
 }
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
   .navbar {
     padding: 0;
   }
@@ -163,7 +177,9 @@ header {
     align-items: center;
     z-index: 100;
   }
-
+  .desk_mob_number {
+    font-size: 20px;
+  }
   .stick {
     display: block;
     width: 24px;

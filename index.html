@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-TR3WC3CW');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--FONTS-->
+    <script src="https://kit.fontawesome.com/fbceaed2ac.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,12 +37,22 @@
     />
 
     <!-- Boostrap  -->
-    <link rel="icon" href="img/global/logo64x62.png" type="image/icon type" />
+    <link rel="icon" href="img/global/logo64x62.png" type="image/icon" />
     <title>Alive Total Wellness - GLP-1 Therapy</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TR3WC3CW"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="header">
       <div class="header_wrapper mycontainer">
         <nav class="navbar">
@@ -39,13 +64,15 @@
               class="main-logo logo-hide logo-color"
             />
           </a>
-
+          <a href="tel:7577809878" class="desk_mob_number"
+            ><i class="fa-solid fa-phone" style="color: #fff"></i>757-780-9878</a
+          >
           <ul class="navbar_menu">
-            <li><p class="nav_elem" href="" onclick="scrollToPrice()">Price</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToAbout()">About</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToBenefits()">Benefits</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToHow()">How it works</p></li>
-            <li><p class="nav_elem" href="#" onclick="scrollToBefore()">Before & After</p></li>
+            <li><p class="nav_elem" onclick="scrollToPrice()">Price</p></li>
+            <li><p class="nav_elem" onclick="scrollToAbout()">About</p></li>
+            <li><p class="nav_elem" onclick="scrollToBenefits()">Benefits</p></li>
+            <li><p class="nav_elem" onclick="scrollToHow()">How it works</p></li>
+            <li><p class="nav_elem" onclick="scrollToBefore()">Before & After</p></li>
           </ul>
           <div class="burger">
             <div class="burger_space" id="burger">
@@ -58,23 +85,23 @@
         <div class="popup" id="popup">
           <div class="popup_textblock" id="popupSlide">
             <ul class="navbar_menu_mobile">
-              <li><p class="nav_elem_mobile" href="" onclick="scrollToPrice()">Price</p></li>
+              <li><p class="nav_elem_mobile" onclick="scrollToPrice()">Price</p></li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToAbout()">About</p>
+                <p class="nav_elem_mobile" onclick="scrollToAbout()">About</p>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToBenefits()">Benefits</p>
+                <p class="nav_elem_mobile" onclick="scrollToBenefits()">Benefits</p>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToHow()">How it works</p>
+                <p class="nav_elem_mobile" onclick="scrollToHow()">How it works</p>
               </li>
               <li>
-                <p class="nav_elem_mobile" href="" onclick="scrollToBefore()">Before & After</p>
+                <p class="nav_elem_mobile" onclick="scrollToBefore()">Before & After</p>
               </li>
             </ul>
             <div class="header_button_pair mob_menu_buttons">
               <a href="#contacts" class="main_button mob_button" onclick="scrollToSub()"
-                >Begin Your Journey Now</a
+                >Get a Provider Consultation</a
               >
             </div>
           </div>
@@ -84,52 +111,57 @@
     <section class="main_picture">
       <div class="main_picture_content_wrapper">
         <div class="main_text_wrapper">
-          <h1>Unlock the Best Version of You!</h1>
+          <h1>GLP-1 Tirzepatide Therapy!</h1>
           <p class="main_text_subtext">
-            A holistic approach to weight loss that not just changes your body, but your life.
+            A holistic approach to weight loss that not just changes your body, but your life!
           </p>
           <div class="header_button_pair mob_menu_buttons mainsect_button">
             <a href="#contacts" class="main_button mob_button" onclick="scrollToSub()"
-              >Begin Your Journey Now</a
+              >Get a Provider Consultation</a
             >
           </div>
         </div>
         <div class="main_form_wrapper">
           <div class="sub_form">
-            <form action="https://postmail.invotes.com/send" method="post" id="email_form">
-              <div class="input-container">
-                <input required type="text" name="Subject" />
-                <label>Name</label>
-              </div>
-              <div class="input-container">
-                <input required type="tel" name="extra_phone_number" />
-                <label>Phone number</label>
-              </div>
-              <div class="input-container">
-                <input required type="email" name="text" />
-                <label>Email</label>
+            <form id="javascript_form">
+              <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                <input
+                  type="text"
+                  type="hidden"
+                  name="Subject"
+                  value="New Customer from website Tirzepatide"
+                />
               </div>
 
+              <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                <input
+                  required
+                  type="text"
+                  name="text"
+                  value="New customer from website Tirzepatide"
+                />
+              </div>
+
+              <div class="input-container" data-aos="fade-up" data-aos-duration="800">
+                <input required type="text" name="extra_name" />
+                <label>Name</label>
+              </div>
+              <div class="input-container" data-aos="fade-up" data-aos-duration="800">
+                <input required type="tel" name="extra_phone_number" class="tel_container" />
+                <label>Phone number</label>
+              </div>
+              <div class="input-container" data-aos="fade-up" data-aos-duration="800">
+                <input required type="email" name="extra_email" />
+                <label>Email</label>
+              </div>
               <div class="input-container">
                 <input
-                  id="submit_form"
+                  id="js_send"
                   type="submit"
-                  value="Begin Your Journey Now"
+                  value="Get a Provider Consultation"
                   class="main_button form_button"
                 />
               </div>
-              <input type="hidden" name="access_token" value="1jo5gridkd64bh3ryfwht219" />
-
-              <input
-                type="hidden"
-                name="success_url"
-                value=".?message=Email+Successfully+Sent%21&isError=0"
-              />
-              <input
-                type="hidden"
-                name="error_url"
-                value=".?message=Email+could+not+be+sent.&isError=1"
-              />
             </form>
           </div>
         </div>
@@ -142,21 +174,21 @@
             We believe the science of probiotics demands a new standart
           </p>
           <div class="intro_content_item_logos_wrapper">
-            <img src="img/intro/logos.png" alt="" class="intro_logo" />
+            <img src="img/intro/logos.png" alt="logos" class="intro_logo" />
           </div>
         </div>
         <div class="intro_content_item_image" data-aos="fade-up">
           <img src="img/intro/bootle.png" alt="bottle" class="intro_content_item_image_image" />
         </div>
         <div class="intro_content_item_price" data-aos="fade-up">
-          <p class="intro_content_item_price_title">GLP-1 Inhibitors</p>
+          <p class="intro_content_item_price_title">GLP-1 Inhibitors: Tirzepatide</p>
           <p class="intro_content_item_price_text">
             A significant number of folks see a noticeable enhancement in their body weight over 12
             weeks. Nevertheless, it is essential to note that the effects may differ according to
             the dosage and duration of treatment.
           </p>
           <div class="intro_content_item_logos_wrapper mob_logos">
-            <img src="img/intro/logos.png" alt="" class="intro_logo" />
+            <img src="img/intro/logos.png" alt="logos" class="intro_logo" />
           </div>
           <p class="intro_content_item_price_starting">Starting at</p>
           <p class="intro_content_item_price_price">
@@ -174,7 +206,7 @@
           <div class="transform_content_text_wrapper">
             <p class="transform_content_text_title" data-aos="fade-up">Transform Your Life today</p>
             <p class="transform_content_text_subtext" data-aos="fade-up">
-              Introducing Semaglutide: A revolutionary weight loss solution. Dive into a
+              Introducing Tirzepatide: A revolutionary weight loss solution. Dive into a
               science-backed approach where users have reported shedding an impressive 16.9% body
               weight in 68 weeks. Not just a simple formula, but a leap towards a healthier you.
               Discover the difference today. Experience the future of effective weight management.
@@ -342,13 +374,13 @@
               <div class="comp_wrapper">
                 <div id="one" class="bal-container">
                   <div class="bal-after">
-                    <img src="img/stories/after.png" />
+                    <img src="img/stories/after.webp" alt="after" />
                     <div class="bal-afterPosition afterLabel">After</div>
                   </div>
 
                   <div class="bal-before">
                     <div class="bal-before-inset">
-                      <img src="img/stories/before.png" />
+                      <img src="img/stories/before.webp" alt="before" />
                       <div class="bal-beforePosition beforeLabel">Before</div>
                     </div>
                   </div>
@@ -363,7 +395,7 @@
                 <div class="comment_wrapper">
                   <div class="comment_text_wrapper">
                     <p class="comment_text">
-                      "Initially doubtful, GLP-1 changed my life. Stable blood sugar, reduced
+                      "Initially doubtful, Tirzepatide changed my life. Stable blood sugar, reduced
                       cravings, and newfound energy. A true game-changer for my health journey."
                     </p>
                     <p class="comment_author">Meagan R.</p>
@@ -375,13 +407,13 @@
               <div class="comp_wrapper">
                 <div id="two" class="bal-container">
                   <div class="bal-after">
-                    <img src="img/stories/2.webp" />
+                    <img src="img/stories/2.webp" alt="after" />
                     <div class="bal-afterPosition afterLabel">After</div>
                   </div>
 
                   <div class="bal-before">
                     <div class="bal-before-inset">
-                      <img src="img/stories/1.webp" />
+                      <img src="img/stories/1.webp" alt="before" />
                       <div class="bal-beforePosition beforeLabel">Before</div>
                     </div>
                   </div>
@@ -408,13 +440,13 @@
               <div class="comp_wrapper">
                 <div id="three" class="bal-container">
                   <div class="bal-after">
-                    <img src="img/stories/4.webp" />
+                    <img src="img/stories/4.webp" alt="after" />
                     <div class="bal-afterPosition afterLabel">After</div>
                   </div>
 
                   <div class="bal-before">
                     <div class="bal-before-inset">
-                      <img src="img/stories/3.webp" />
+                      <img src="img/stories/3.webp" alt="before" />
                       <div class="bal-beforePosition beforeLabel">Before</div>
                     </div>
                   </div>
@@ -695,86 +727,59 @@
         </div>
         <div class="sub_form_wrapper">
           <div class="sub_form sub_subform">
-            <form
-              class="sub_form_form"
-              action="https://postmail.invotes.com/send"
-              method="post"
-              id="email_form2"
-            >
-              <p class="sub_form_title">Unlock the Best Version of You!</p>
+            <form class="sub_form_form" id="javascript_form2">
+              <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                <input
+                  type="text"
+                  type="hidden"
+                  name="Subject"
+                  value="New Customer from website Tirzepatide"
+                />
+              </div>
+
+              <div class="input-container hiden" data-aos="fade-up" data-aos-duration="800">
+                <input
+                  required
+                  type="text"
+                  name="text"
+                  value="New customer from website Tirzepatide"
+                />
+              </div>
+              <p class="sub_form_title">Start My Tirzepatide Therapy!</p>
               <div class="input-container">
-                <input required type="text" name="Subject" />
+                <input required type="text" name="extra_name" />
                 <label>Name</label>
               </div>
               <div class="input-container">
-                <input required type="tel" name="extra_phone_number" />
+                <input required type="tel" name="extra_phone_number" class="tel_container2" />
                 <label>Phone number</label>
               </div>
               <div class="input-container">
-                <input required type="email" name="text" />
+                <input required type="email" name="extra_email" />
                 <label>Email</label>
               </div>
 
               <div class="input-container">
                 <input
-                  id="submit_form2"
+                  id="js_send2"
                   type="submit"
                   value="Get started"
                   class="main_button form_button"
                 />
               </div>
-              <input type="hidden" name="access_token" value="1jo5gridkd64bh3ryfwht219" />
-
-              <input
-                type="hidden"
-                name="success_url"
-                value=".?message=Email+Successfully+Sent%21&isError=0"
-              />
-              <input
-                type="hidden"
-                name="error_url"
-                value=".?message=Email+could+not+be+sent.&isError=1"
-              />
             </form>
           </div>
         </div>
       </div>
     </section>
-    <script>
-      var submitButton = document.getElementById('submit_form');
-      var form = document.getElementById('email_form');
-      submitButton.form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        setTimeout(function () {
-          submitButton.value = 'Sending...';
-          submitButton.disabled = true;
-        }, 1);
-        setTimeout(() => {
-          window.location.href = 'thankyou.html';
-        }, 1000);
-      });
-    </script>
-    <script>
-      var submitButton2 = document.getElementById('submit_form2');
-      var form2 = document.getElementById('email_form2');
-      submitButton2.form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        setTimeout(function () {
-          submitButton2.value = 'Sending...';
-          submitButton2.disabled = true;
-        }, 1);
-        setTimeout(() => {
-          window.location.href = 'thankyou.html';
-        }, 1000);
-      });
-    </script>
+
     <footer data-aos="fade-up">
       <div class="footer_wrapper">
         <div class="footer_texts_wrapper">
           <p class="footer_title">Alive Total Wellness</p>
           <p class="footer_text">Veteran Owned and Operated in Tidewater Virginia</p>
           <div class="phone_mail_wrapper">
-            <a href="tel:+7577809878" class="footer_text footer_phone">+757-780-9878</a>
+            <a href="tel:7577809878" class="footer_text footer_phone">757-780-9878</a>
           </div>
 
           <div class="phone_mail_wrapper">

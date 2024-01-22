@@ -162,6 +162,9 @@ input[type='email']:valid ~ label {
   font-size: 11px;
   color: var(--usual-decorations);
 }
+.hiden {
+  display: none;
+}
 
 .form_button {
   font-size: 18px;
@@ -269,6 +272,12 @@ input[type='email']:valid ~ label {
   }
   .main_text_wrapper {
     margin-top: 30svh;
+  }
+  .form_button {
+    font-size: 14px;
+
+    font-weight: 600;
+    padding: 15px 24px;
   }
 }
 @media (max-width: 745px) {
