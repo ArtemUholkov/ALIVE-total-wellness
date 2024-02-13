@@ -212,8 +212,8 @@ var form_id_js = 'javascript_form';
 var form_id_js2 = 'javascript_form2';
 
 var data_js = {
-  access_token: 'b6ptufawi5qmc6uw1hqngyoz',
-  // access_token: 'fi2138nc5t3t25unwm7thdou',
+  // access_token: 'b6ptufawi5qmc6uw1hqngyoz',
+  access_token: 'fi2138nc5t3t25unwm7thdou',
 };
 
 function js_onSuccess() {
