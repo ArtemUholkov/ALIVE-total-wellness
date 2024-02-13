@@ -1,5 +1,5 @@
 .transform {
-  background: url('../img/transform/bgimg.png');
+  background: url('../img/transform/bgimg.webp');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,7 +258,7 @@
   }
   .transform {
     margin-top: -20px;
-    background-image: url('../img/transform/bgmobtest.png');
+    background-image: url('../img/transform/bgmobtest.webp');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
