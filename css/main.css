@@ -242,8 +242,7 @@ input[type='email']:valid ~ label {
 
 @media (max-width: 950px) {
   .main_picture {
-    min-height: 500px;
-    height: 700px;
+    min-height: 100svh;
     width: 100svw;
     /* background: url('../img/main/mobimg.png');
     background-position: top;
