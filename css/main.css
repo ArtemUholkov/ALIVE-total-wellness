@@ -336,7 +336,7 @@ input[type='email']:valid ~ label {
 }
 @media (max-width: 450px) {
   .main_picture {
-    background: url('../img/main/mobimg.png');
+    background: url('../img/main/mobimg.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
